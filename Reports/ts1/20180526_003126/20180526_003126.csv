@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ts1,Chrome 66.0.3359.181,,2018-05-26 00:31:27,2018-05-26 00:31:30,2.743s,FAILED
+,,,,,,
+Test Cases/GoogleSearch,Chrome 66.0.3359.181,,2018-05-26 00:31:27,2018-05-26 00:31:30,2.381s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-26 00:31:28,2018-05-26 00:31:29,1.315s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-26 00:31:29,2018-05-26 00:31:29,0.253s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-26 00:31:29,2018-05-26 00:31:30,0.456s,FAILED

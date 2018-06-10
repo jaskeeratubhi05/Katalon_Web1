@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ts1" time="27" tests="0" failures="1" errors="0">
+   <testsuite name="ts1" tests="0" failures="1" errors="0" time="27" timestamp="2018-05-26 00:48:02" hostname="kam - LK-KAM.codehousegroup.local" id="Test Suites/ts1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kam\\Katalon Studio\\WebAutomation\\Reports\\ts1\\20180526_004801"/>
+         <property name="logFiles" value="C:\\Users\\kam\\Katalon Studio\\WebAutomation\\Reports\\ts1\\20180526_004801\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kam - LK-KAM.codehousegroup.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="10.173.108.29"/>
+         <property name="sessionId" value="fbaedddcfe7711505c4f8c26a46463a8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GoogleSearch" classname="Test Cases/GoogleSearch" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id=&quot;page-top&quot;]/div[2]/div/div/div/div/div/div/h1})"/>
+         <system-out><![CDATA[2018-05-26 00:48:03 - [TEST_CASE][FAILED] - Test Cases/GoogleSearch: Test Cases/GoogleSearch FAILED because (of) Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})
+
+2018-05-26 00:48:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://www.google.lk'
+
+2018-05-26 00:48:08 - [MESSAGE][PASSED] - Browser is opened with url: 'http://www.google.lk'
+
+2018-05-26 00:48:08 - [TEST_STEP][PASSED] - setText: Text 'Katalon Studio' is set on object 'Object Repository/GoogleSearch'
+
+2018-05-26 00:48:08 - [MESSAGE][PASSED] - Text 'Katalon Studio' is set on object 'Object Repository/GoogleSearch'
+
+2018-05-26 00:48:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Search Button' is clicked on
+
+2018-05-26 00:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Search Button' is clicked on
+
+2018-05-26 00:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Kataloon Link' is clicked on
+
+2018-05-26 00:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Kataloon Link' is clicked on
+
+2018-05-26 00:48:10 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})
+
+2018-05-26 00:48:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-26 00:48:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-05-26 00:48:30 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})]]></system-out>
+         <system-err><![CDATA[2018-05-26 00:48:03 - [TEST_CASE][FAILED] - Test Cases/GoogleSearch: Test Cases/GoogleSearch FAILED because (of) Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-26 00:48:02 - [TEST_SUITE][FAILED] - ts1: Test Cases/GoogleSearch FAILED because (of) Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})]]></system-out>
+      <system-err><![CDATA[2018-05-26 00:48:02 - [TEST_SUITE][FAILED] - ts1: Test Cases/GoogleSearch FAILED because (of) Unable to verify object 'Object Repository/Kataloon Component' is present (Root cause: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=66.0.3359.181)
+  (Driver info: chromedriver=2.38.551601 (edb21f07fc70e9027c746edd3201443e011a61ed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'LK-KAM', ip: '10.173.108.29', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.551601 (edb21f07fc70e9..., userDataDir: C:\Users\kam\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.181, webStorageEnabled: true}
+Session ID: fbaedddcfe7711505c4f8c26a46463a8
+*** Element info: {Using=xpath, value=//*[@id="page-top"]/div[2]/div/div/div/div/div/div/h1})]]></system-err>
+   </testsuite>
+</testsuites>
